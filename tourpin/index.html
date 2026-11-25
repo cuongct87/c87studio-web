@@ -7,6 +7,7 @@
 <meta name="description" content="TourPin: ghim nơi bạn đã đi lên bản đồ, xem ảnh thật của từng điểm đến, chia sẻ cho bạn bè. Ứng dụng của C87 Studio.">
 <link rel="icon" href="/assets/tourpin.png">
 <link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/carousel.css">
 <style>:root { --accent: #1fb5b0; } .btn.main { color: #04201f; } .tag { border-color: #155553; }</style>
 </head>
 <body>
@@ -26,6 +27,30 @@
   </section>
 
   <p style="max-width:680px">Đi chơi về, ảnh đẹp nhưng quên mất chụp ở đâu? Thấy chỗ đẹp trên mạng nhưng không biết ngoài đời ra sao? TourPin ghim từng tấm ảnh vào đúng nơi bạn đứng chụp, thành bản đồ kỷ niệm của riêng bạn, và giúp người đi sau biết trước một nơi có gì.</p>
+
+
+  <section class="carousel" data-carousel tabindex="0" aria-label="Ảnh điểm đến">
+    <h2 style="font-size:20px;margin:0 0 4px">Điểm đến qua ảnh thật</h2>
+    <p class="muted" style="margin:0 0 6px;font-size:15px">Kéo qua lại để xem. Ảnh do C87 tự chụp trong các chuyến đi.</p>
+    <div class="carousel-stage">
+      <div class="carousel-card" data-title="Chùa Bà Thiên Hậu" data-sub="Cà Mau"><img src="/assets/diem/thien-hau.jpg" alt="Chùa Bà Thiên Hậu" loading="lazy"></div>
+      <div class="carousel-card" data-title="Cầu đi bộ Ninh Kiều" data-sub="Cần Thơ"><img src="/assets/diem/ninh-kieu.jpg" alt="Cầu đi bộ Ninh Kiều" loading="lazy"></div>
+      <div class="carousel-card" data-title="Hòn Phụ Tử" data-sub="Kiên Lương, An Giang"><img src="/assets/diem/hon-phu-tu.jpg" alt="Hòn Phụ Tử" loading="lazy"></div>
+      <div class="carousel-card" data-title="Mẹ Quan Âm Đông Hải" data-sub="Bạc Liêu cũ, Cà Mau"><img src="/assets/diem/me-dong-hai.jpg" alt="Mẹ Quan Âm Đông Hải" loading="lazy"></div>
+      <div class="carousel-card" data-title="Đảo Hòn Sơn" data-sub="Kiên Hải, An Giang"><img src="/assets/diem/hon-son.jpg" alt="Đảo Hòn Sơn" loading="lazy"></div>
+      <div class="carousel-card" data-title="Bãi Cây Dừa" data-sub="Hòn Sơn, An Giang"><img src="/assets/diem/bai-cay-dua.jpg" alt="Bãi Cây Dừa" loading="lazy"></div>
+      <div class="carousel-card" data-title="Núi Sam" data-sub="Châu Đốc, An Giang"><img src="/assets/diem/nui-sam.jpg" alt="Núi Sam" loading="lazy"></div>
+      <div class="carousel-card" data-title="Đố bạn: đây là đâu?" data-sub="Một chuyến ra Bắc"><img src="/assets/diem/mien-bac.jpg" alt="Đố bạn: đây là đâu?" loading="lazy"></div>
+      <div class="carousel-card" data-title="Furama Resort" data-sub="Đà Nẵng"><img src="/assets/diem/furama.jpg" alt="Furama Resort" loading="lazy"></div>
+      <div class="carousel-card" data-title="Bãi Trường" data-sub="Phú Quốc, An Giang"><img src="/assets/diem/bai-truong.jpg" alt="Bãi Trường" loading="lazy"></div>
+    </div>
+    <div class="carousel-caption"><b></b><span></span></div>
+    <div class="carousel-nav">
+      <button type="button" data-prev aria-label="Ảnh trước">‹</button>
+      <div class="carousel-dots"></div>
+      <button type="button" data-next aria-label="Ảnh sau">›</button>
+    </div>
+  </section>
 
   <section class="features">
     <div class="feature"><b>Bản đồ của tôi</b><span>Mỗi chuyến đi là một ghim trên bản đồ, kèm ảnh và cảm nhận của bạn.</span></div>
@@ -51,5 +76,6 @@
     <a href="mailto:dqcuong2@gmail.com">dqcuong2@gmail.com</a>
   </span>
 </div></footer>
+<script src="/assets/carousel.js"></script>
 </body>
 </html>
