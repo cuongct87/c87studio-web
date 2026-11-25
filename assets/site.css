@@ -20,7 +20,8 @@ a { color: var(--accent); }
 .wrap { max-width: 920px; margin: 0 auto; padding: 0 20px; }
 header.top { border-bottom: 1px solid var(--line); }
 header.top .wrap { display: flex; align-items: center; justify-content: space-between; height: 60px; }
-.brand { color: var(--text); text-decoration: none; font-weight: 800; letter-spacing: .5px; }
+.brand { color: var(--text); text-decoration: none; font-weight: 800; letter-spacing: .5px; display: inline-flex; align-items: center; }
+.brand img { display: block; margin-right: 10px; }
 .brand span { color: var(--accent); }
 nav a { color: var(--muted); text-decoration: none; margin-left: 18px; font-size: 15px; }
 nav a:hover { color: var(--text); }
