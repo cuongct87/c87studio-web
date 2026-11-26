@@ -54,6 +54,14 @@ nav a:hover { color: var(--text); }
 .doc h1 { font-size: 30px; margin-bottom: 4px; }
 .doc h2 { font-size: 20px; margin-top: 28px; }
 .doc p, .doc li { color: #d3d8e1; }
+.doc hr { border: 0; border-top: 1px solid var(--line); margin: 36px 0; }
+.doc details { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 0 16px; margin-top: 12px; }
+.doc summary { cursor: pointer; font-weight: 700; padding: 12px 0; }
+.doc dt { font-weight: 600; }
+.doc dd { color: #d3d8e1; margin: 0 0 12px; }
+@media (max-width: 760px) {
+  .doc { padding-inline: 20px; }
+}
 .muted { color: var(--muted); }
 footer { border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
 footer .wrap { padding: 22px 20px; display: flex; flex-wrap: wrap; gap: 8px 22px; justify-content: space-between; }
